@@ -10,6 +10,14 @@ namespace Bankomat_2
     {
         static void Main(string[] args)
         {
+            Bankomat bank = new Bankomat (1,2);
+            bank.Start ();
+            bank.SelectLanguage ();
+           // bank.EnterPincode(1234);
+            bank.SelectOperation ();
+
+            Console.ReadLine ();
         }
     }
 }
+    
